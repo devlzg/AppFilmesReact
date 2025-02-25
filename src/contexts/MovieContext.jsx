@@ -3,7 +3,7 @@ import { createContext, useState, useContext, useEffect } from "react";
 const MovieContext = createContext();
 
 // eslint-disable-next-line react-refresh/only-export-components
-export const useMovieContext = () => useContext()
+export const useMovieContext = () => useContext(MovieContext)
 
 // eslint-disable-next-line react/prop-types
 export const MovieProvider = ({children}) => {
